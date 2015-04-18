@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "time tracking tool",
   "main": "index.js",
+  "repository": "git@github.com:DrBATU/hisaab.git",
   "scripts": {
     "test": "node index.js"
   },
@@ -14,5 +15,9 @@
     "javascript"
   ],
   "author": "kaushal.rajkotia@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.12.3",
+    "nodemon": "^1.3.7"
+  }
 }
